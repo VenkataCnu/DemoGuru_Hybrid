@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-04T16:38:17 IST" name="Suite" finished-at="2023-03-04T16:40:45 IST" duration-ms="147807">
+    <groups>
+    </groups>
+    <test started-at="2023-03-04T16:38:17 IST" name="Smoke_Test" finished-at="2023-03-04T16:39:03 IST" duration-ms="45893">
+      <class name="com.testcases.TC_Login_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.testcases.TC_Login_001@298a5e20]" started-at="2023-03-04T16:38:19 IST" name="setup" finished-at="2023-03-04T16:38:51 IST" duration-ms="32502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="start()[pri:0, instance:com.testcases.TC_Login_001@298a5e20]" started-at="2023-03-04T16:38:51 IST" name="start" finished-at="2023-03-04T16:39:02 IST" duration-ms="11029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.TC_Login_001@298a5e20]" started-at="2023-03-04T16:39:02 IST" name="teardown" finished-at="2023-03-04T16:39:03 IST" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testcases.TC_Login_001 -->
+    </test> <!-- Smoke_Test -->
+    <test started-at="2023-03-04T16:39:04 IST" name="Sanity_Test" finished-at="2023-03-04T16:40:02 IST" duration-ms="58371">
+      <class name="com.testcases.TC_AddCustomer_002">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.testcases.TC_AddCustomer_002@cb0755b]" started-at="2023-03-04T16:39:04 IST" name="setup" finished-at="2023-03-04T16:39:31 IST" duration-ms="26877" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:-1, instance:com.testcases.TC_AddCustomer_002@cb0755b]" started-at="2023-03-04T16:39:31 IST" name="login" finished-at="2023-03-04T16:39:38 IST" duration-ms="7838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addCust()[pri:0, instance:com.testcases.TC_AddCustomer_002@cb0755b]" started-at="2023-03-04T16:39:38 IST" name="addCust" finished-at="2023-03-04T16:40:00 IST" duration-ms="21306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCust -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.TC_AddCustomer_002@cb0755b]" started-at="2023-03-04T16:40:00 IST" name="teardown" finished-at="2023-03-04T16:40:02 IST" duration-ms="2334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testcases.TC_AddCustomer_002 -->
+    </test> <!-- Sanity_Test -->
+    <test started-at="2023-03-04T16:40:02 IST" name="Regression_Test" finished-at="2023-03-04T16:40:45 IST" duration-ms="42728">
+      <class name="com.testcases.TC_Login_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.testcases.TC_Login_001@4a83a74a]" started-at="2023-03-04T16:40:02 IST" name="setup" finished-at="2023-03-04T16:40:34 IST" duration-ms="32257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="start()[pri:0, instance:com.testcases.TC_Login_001@4a83a74a]" started-at="2023-03-04T16:40:34 IST" name="start" finished-at="2023-03-04T16:40:44 IST" duration-ms="9914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.TC_Login_001@4a83a74a]" started-at="2023-03-04T16:40:44 IST" name="teardown" finished-at="2023-03-04T16:40:45 IST" duration-ms="510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testcases.TC_Login_001 -->
+    </test> <!-- Regression_Test -->
+  </suite> <!-- Suite -->
+</testng-results>
